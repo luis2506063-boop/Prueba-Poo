@@ -17,4 +17,5 @@ class Usuario:
     def cerrar_sesion(self):
         print("Estamos cerrando sesión")
 
-
+#creo mi primer objeto
+usuario_luis = Usuario("Luis", "luismiguelmarinovando@gmail.com", "nuevacontraseñaprueba")
