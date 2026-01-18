@@ -1,5 +1,6 @@
+from usuario import Usuario
 
-usuario = None
+usuario = Usuario("Luis", "luis@gmail.com", "papo321")
 
 print ('Bienvenido al sistema de compras')
 
@@ -10,7 +11,7 @@ while True:
         print('2) crear cuenta')
         print('0) salir')
 
-    else usuario == 1:
+    else:
         print('1) ver carrito')
         print('2) ver productos disponibles')
         print('3) rpoceder a comprar')
