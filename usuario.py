@@ -20,4 +20,3 @@ class Usuario:
 #creo mi primer objeto
 usuario_luis = Usuario("Luis", "luismiguelmarinovando@gmail.com", "nuevacontraseñaprueba")
 
-usuario_luis.iniciar_sesion()
