@@ -6,3 +6,5 @@ class Carrito:
 
     def visualizar_carrito(self):
         print(self.producto)
+
+Carrito_usuario= Carrito([])
